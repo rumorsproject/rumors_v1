@@ -1,3 +1,12 @@
+<?php
+/*
+ * Index page
+ * Author: Vladimir Korennoy (lloft.dark@gmail.com)
+ * Date:   16.01.2014
+ * 
+ */
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
   <head>
@@ -33,6 +42,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="/profile.php">Profile</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container -->
@@ -56,51 +66,85 @@
       
       <div class="row text-center">
 
-        <div class="col-lg-3 col-md-6">
+        <!-- TEASER BLOCK -->  
+        <div class="col-lg-4 col-md-6">
           <div class="thumbnail">
             <div class="caption">
-              <h3>Rumor title first 200 symbols...</h3>
-              <p>Rumor text rumor text rumor text rumor text rumor text rumor text rumor text</p>
-              <p><a href="#" class="btn btn-success">Like <span class="glyphicon glyphicon-thumbs-up"></span></a> 
-                <a href="#" class="btn btn-danger">Dislike <span class="glyphicon glyphicon-thumbs-down"></span></a>        
+              <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis fermentum tortor...</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis fermentum tortor quis posuere. Aenean vitae fermentum urna, ut mattis urna. Nam eros justo, sagittis non tincidunt eleifend, accumsan vitae tortor. Nunc eu mollis mauris, vitae interdum metus</p>
+              <p align="right"><a href="#" class="btn btn-success">23 <span class="glyphicon glyphicon-thumbs-up"></span></a> 
+                 <a href="#" class="btn btn-danger">2 <span class="glyphicon glyphicon-thumbs-down"></span></a>
             </div>
           </div>
         </div>
-
-        <div class="col-lg-3 col-md-6">
+        <!-- // TEASER BLOCK -->
+        
+        <div class="col-lg-4 col-md-6">
           <div class="thumbnail">
             <div class="caption">
-              <h3>Rumor title first 300 symbols...</h3>
-              <p>Rumor text rumor text rumor text rumor text rumor text rumor text rumor text</p>
-              <p><a href="#" class="btn btn-success">Like <span class="glyphicon glyphicon-thumbs-up"></span></a> 
-                <a href="#" class="btn btn-danger">Dislike <span class="glyphicon glyphicon-thumbs-down"></span></a>        
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6">
-          <div class="thumbnail">
-            <div class="caption">
-              <h3>Rumor title first 300 symbols...</h3>
-              <p>Rumor text rumor text rumor text rumor text rumor text rumor text rumor text</p>
-              <p><a href="#" class="btn btn-success">Like <span class="glyphicon glyphicon-thumbs-up"></span></a> 
-                <a href="#" class="btn btn-danger">Dislike <span class="glyphicon glyphicon-thumbs-down"></span></a>        
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6">
-          <div class="thumbnail">
-            <div class="caption">
-              <h3>Rumor title first 300 symbols...</h3>
-              <p>Rumor text rumor text rumor text rumor text rumor text rumor text rumor text</p>
-              <p><a href="#" class="btn btn-success">Like <span class="glyphicon glyphicon-thumbs-up"></span></a> 
+              <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis fermentum tortor...</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis fermentum tortor quis posuere. Aenean vitae fermentum urna, ut mattis urna. Nam eros justo, sagittis non tincidunt eleifend, accumsan vitae tortor. Nunc eu mollis mauris, vitae interdum metus</p>
+              <p align="right"><a href="#" class="btn btn-success">Like <span class="glyphicon glyphicon-thumbs-up"></span></a> 
                  <a href="#" class="btn btn-danger">Dislike <span class="glyphicon glyphicon-thumbs-down"></span></a>        
             </div>
           </div>
         </div>
 
+        <div class="col-lg-4 col-md-6">
+          <div class="thumbnail">
+            <div class="caption">
+              <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis fermentum tortor...</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis fermentum tortor quis posuere. Aenean vitae fermentum urna, ut mattis urna. Nam eros justo, sagittis non tincidunt eleifend, accumsan vitae tortor. Nunc eu mollis mauris, vitae interdum metus</p>
+              <p align="right"><a href="#" class="btn btn-success">Like <span class="glyphicon glyphicon-thumbs-up"></span></a> 
+                 <a href="#" class="btn btn-danger">Dislike <span class="glyphicon glyphicon-thumbs-down"></span></a>        
+            </div>
+          </div>
+        </div>
 
+        <div class="col-lg-4 col-md-6">
+          <div class="thumbnail">
+            <div class="caption">
+              <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis fermentum tortor...</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis fermentum tortor quis posuere. Aenean vitae fermentum urna, ut mattis urna. Nam eros justo, sagittis non tincidunt eleifend, accumsan vitae tortor. Nunc eu mollis mauris, vitae interdum metus</p>
+              <p align="right"><a href="#" class="btn btn-success">Like <span class="glyphicon glyphicon-thumbs-up"></span></a> 
+                 <a href="#" class="btn btn-danger">Dislike <span class="glyphicon glyphicon-thumbs-down"></span></a>        
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="thumbnail">
+            <div class="caption">
+              <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis fermentum tortor...</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis fermentum tortor quis posuere. Aenean vitae fermentum urna, ut mattis urna. Nam eros justo, sagittis non tincidunt eleifend, accumsan vitae tortor. Nunc eu mollis mauris, vitae interdum metus</p>
+              <p align="right"><a href="#" class="btn btn-success">Like <span class="glyphicon glyphicon-thumbs-up"></span></a> 
+                 <a href="#" class="btn btn-danger">Dislike <span class="glyphicon glyphicon-thumbs-down"></span></a>        
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="thumbnail">
+            <div class="caption">
+              <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis fermentum tortor...</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis fermentum tortor quis posuere. Aenean vitae fermentum urna, ut mattis urna. Nam eros justo, sagittis non tincidunt eleifend, accumsan vitae tortor. Nunc eu mollis mauris, vitae interdum metus</p>
+              <p align="right"><a href="#" class="btn btn-success">Like <span class="glyphicon glyphicon-thumbs-up"></span></a> 
+                 <a href="#" class="btn btn-danger">Dislike <span class="glyphicon glyphicon-thumbs-down"></span></a>        
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="thumbnail">
+            <div class="caption">
+              <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis fermentum tortor...</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis fermentum tortor quis posuere. Aenean vitae fermentum urna, ut mattis urna. Nam eros justo, sagittis non tincidunt eleifend, accumsan vitae tortor. Nunc eu mollis mauris, vitae interdum metus</p>
+              <p align="right"><a href="#" class="btn btn-success">Like <span class="glyphicon glyphicon-thumbs-up"></span></a> 
+                 <a href="#" class="btn btn-danger">Dislike <span class="glyphicon glyphicon-thumbs-down"></span></a>        
+            </div>
+          </div>
+        </div>
+          
       </div><!-- /.row -->
       
       <hr>
